@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+.cs-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.brand-header {
+  padding: 16px 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.brand-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.brand-text h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.brand-text p {
+  margin: 2px 0 0;
+  font-size: 0.9rem;
+  color: #ffcc70;
+}
+
+.cs-header {
+  padding: 16px 24px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.cs-hero {
+  position: relative;
+  flex: 1;
+  background: url(/public/240_F_1679893615_SsbRRjHSXBtzk7QW1KBYkDCIF51zC5hy.jpg) no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cs-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.cs-content {
+  position: relative;
+  text-align: center;
+  max-width: 500px;
+  padding: 24px;
+}
+
+.cs-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+}
+
+.cs-soon {
+  font-size: 1.2rem;
+  color: #ffb703;
+  margin-bottom: 20px;
+}
+
+.cs-input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.cs-input-group input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+}
+
+.cs-input-group button {
+  padding: 12px 18px;
+  border-radius: 6px;
+  border: none;
+  background: #d62828;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cs-countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cs-countdown div span {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.cs-features {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px;
+  background: #151515;
+  font-weight: 500;
+}
+
+.cs-footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+.cs-social {
+  margin-bottom: 20px;
+}
+
+.cs-social a {
+  margin: 0 10px;
+  color: #ffb703;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .cs-input-group {
+    flex-direction: column;
+  }
+  .brand {
+    flex-direction: column;
+    text-align: center;
+  }
+  .brand-logo {
+    width: 64px;
+    height: 64px;
+  }
+}
