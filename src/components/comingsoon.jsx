@@ -81,7 +81,7 @@ export default function ComingSoon() {
 
       {/* Why Us */}
       <section className="cs-video">
-        <video controls loop autoPlay>
+        <video controls loop muted autoPlay>
             <source src="/comingsoon-video-1.mp4" type="video/mp4" />
         </video>
       </section>
