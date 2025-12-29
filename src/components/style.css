@@ -166,4 +166,7 @@ body {
   .cs-video video{ 
     width: 100%;
   }
+  .cs-features div {
+    font-size: 15px;
+}
 }
