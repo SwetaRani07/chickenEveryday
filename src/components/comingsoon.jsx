@@ -39,7 +39,7 @@ export default function ComingSoon() {
 
             <div className="brand-text">
             <h1>CHICKEN EVERYDAY</h1>
-            <p>देसी चिकन, भरोसे की ताज़गी</p>
+            <p>Quality And Hygiene You Can Trust</p>
             </div>
         </div>
       </header>
@@ -51,14 +51,14 @@ export default function ComingSoon() {
           <p>ऑर्डर पर ताज़ा कट, शुद्ध चिकन</p>
           <p className="cs-soon">Launching Soon | जल्द आ रहा है</p>
 
-          <div className="cs-input-group">
+          {/*<div className="cs-input-group">
             <input
               type="email"
               placeholder="Enter your email"
               aria-label="Email"
             />
             <button>Notify Me</button>
-          </div>
+          </div>*/}
 
           {timeLeft.days !== undefined && (
             <div className="cs-countdown">
@@ -80,6 +80,11 @@ export default function ComingSoon() {
       </section>
 
       {/* Why Us */}
+      <section className="cs-video">
+        <video controls loop autoPlay>
+            <source src="/comingsoon-video-1.mp4" type="video/mp4" />
+        </video>
+      </section>
       <section className="cs-features">
         <div>✔ पूरा चिकन</div>
         <div>✔ करी कट</div>
